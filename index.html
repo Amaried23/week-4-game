@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> Crystals Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+<h1>Crystals Collector</h1>
+
+<div class="container1">
+<p> You will be given a random number at the start of the game. </p>
+<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+<p>The value of each crystal is hidden from you until you click on it. </p>
+<p> Each time when the game starts, the game will change the values of each crystal.</p>
+</div>
+
+
+<div class="randomNumber">
+	<div id="guessedNumber">
+		<h2>Number to Match: <span id="randomNumber"></span></h2>
+ </div>
+</div>
+
+<div class="scorebox">
+<div id="score">
+<h3><span id="status"></span></h3>
+<h3> Wins: <span id="Win"></span></h3>
+<h3>Losses: <span id="loss"></span></h3>
+</div>
+</div>
+
+<div class="buttonscontainer">
+
+	<button id="one"><img src ="assets/images/gem1.png" alt="Image input control" width="63" height="64"> </button>
+	<button id="two"><img src ="assets/images/diamond.png" alt="Image input control" width="63" height="64"> </button>
+	<button id="three"><img src ="assets/images/yellowgem.jpg" alt="Image input control" width="63" height="64"> </button>
+	<button id="four"><img src ="assets/images/gem4.PNG" alt="Image input control" width="63" height="64"> </button>
+</div>
+
+<div class="totalscore">
+<h2 id ="sp"> Your total score is: <span id="yourScore">0</span> </h2>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
