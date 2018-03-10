@@ -1,6 +1,6 @@
 # week-4-game
 
-##Crystal Collector 
+## Crystal Collector 
 
 Here's how the app works:
 
