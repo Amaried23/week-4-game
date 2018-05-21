@@ -1,53 +1,64 @@
 body {
-	background-image: url("../images/background.jpg");
+   background-image: url("../images/background.jpg");
+   position: relative;
+   width: 100%;
+   background-size: cover;
 
 }
 
 h1 {
-	background-color: #DDA0DD;
 	width: 20%;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	color: purple;
 
 }
 
-.container1 {
-	background-color: purple;
+.rules {
 	width: 40%;
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: bold;
-	color: pink;
+	color: purple;
 	padding-top: 20px;
-	padding-bottom: 70px;
-}
-
-.randomNumber {
-	background-color: #40E0D0;
-	width: 33.3%;
-	margin-top: 20px;
-	font-size: 25px;
-	padding-bottom: 50px;
-	float: left;
-	margin-bottom: 20px;
-}
-
-
-.scorebox {
-	float: left;
-	width: 15%;
-	margin-top: 20px;
-	margin-left: 20px;
-	background-color: #BA55D3;
-	padding-bottom: 13px;
+	padding-bottom: 25px;
+	font-family: 'Kaushan Script', cursive;
 }
 
 .buttonscontainer {
 	clear: both;
 	width: 50%;
 	overflow: auto;
+	padding-bottom: 25px;
+}
+.randomNumber {
+	background-color: #40E0D0;
+	width: 33.3%;
+	font-size: 25px;
+    float: left;
+    font-family: 'Kaushan Script', cursive;
+	color: purple;
+
+}
 
 
+.scorebox {
+	float: right;
+	width: 5%;
+	margin-left: 70px;
+	background-color: #40E0D0;
+	padding-bottom: 14px;
+	margin-right: 200px;
+	font-family: 'Kaushan Script', cursive;
+	color: purple;
+}
+
+.buttonscontainer {
+	clear: both;
+	width: 50%;
+	overflow: auto;
+	padding-bottom: 25px;
 }
 
 .sp {
